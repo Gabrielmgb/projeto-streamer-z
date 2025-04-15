@@ -56,13 +56,13 @@ const HeroSection = () => {
         className="mt-6 space-x-4">
           <a
             href="#"
-            className="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium"
+            className="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium duration-200"
           >
             {HERO_CONTENT.callToAction.primary}
           </a>
           <a
             href="#"
-            className="inline-block border border-gray-500 hover:border-gray-400 text-white py-3 px-6 rounded-lg font-medium"
+            className="inline-block border border-gray-500 hover:border-gray-400 text-white py-3 px-6 rounded-lg font-medium duration-200"
           >
             {HERO_CONTENT.callToAction.secondary}
           </a>

@@ -72,7 +72,7 @@ const HowItWorks = () => {
                       />
                     ))}
                   </div>
-                  <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded-lg">
+                  <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded-lg duration-200 cursor-pointer">
                     Connect
                   </button>
                 </div>
