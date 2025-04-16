@@ -17,20 +17,20 @@ const Navbar = () => {
 
         {/* Center: Links (hidden on mobile) */}
         <div className="hidden md:flex space-x-6">
-          <a href="#works" className="hover:text-neutral-200">
+          <a href="#works" className="hover:text-neutral-200 duration-300">
             How it works
           </a>
-          <a href="#pricing" className="hover:text-neutral-200">
+          <a href="#pricing" className="hover:text-neutral-200 duration-300">
             Pricing
           </a>
-          <a href="#testimonials" className="hover:text-neutral-200">
+          <a href="#testimonials" className="hover:text-neutral-200 duration-300">
             Testimonials
           </a>
         </div>
 
         {/* Right: Buttons (hidden on mobile) */}
         <div className="hidden md:flex space-x-4 items-center">
-          <a href="#" className="hover:text-neutral-200">
+          <a href="#" className="hover:text-neutral-200 duration-300">
             Login
           </a>
           <a
