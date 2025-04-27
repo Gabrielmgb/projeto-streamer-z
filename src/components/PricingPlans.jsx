@@ -72,7 +72,7 @@ const PricingPlans = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 rounded-lg duration-200 cursor-pointer">
+              <button className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-400 rounded-lg duration-200 cursor-pointer">
                 {PLANS_CONTENT.ctaText}
               </button>
             </motion.div>
