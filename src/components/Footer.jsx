@@ -11,7 +11,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 {section.links.map((link, index) => (
                   <li key={index}>
-                    <a href={link.url}>{link.text}</a>
+                    <a href={link.url} className="hover:text-neutral-600 duration-200">{link.text}</a>
                   </li>
                 ))}
               </ul>
