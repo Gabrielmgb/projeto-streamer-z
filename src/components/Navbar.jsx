@@ -35,7 +35,7 @@ const Navbar = () => {
           </a>
           <a
             href="#"
-            className="border border-neutral-700 text-white py-2 px-4 rounded-lg hover:bg-neutral-700 transition duration-200"
+            className="border border-neutral-700 text-white py-2 px-4 rounded-lg hover:bg-neutral-700 transition duration-300"
           >
             Get a demo
           </a>
