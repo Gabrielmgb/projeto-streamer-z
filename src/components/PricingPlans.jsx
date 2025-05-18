@@ -43,21 +43,24 @@ const PricingPlans = () => {
               key={index}
               custom={index}
               variants={childVariants}
-              className={`p-8 rounded-xl shadow-lg bg-neutral-950
+              className={`p-8 rounded-xl shadow-2xl  bg-neutral-950
                         ${
                           plan.popular
-                            ? "border border-blue-900/80"
+                            ? "shadow-blue-700/40 border border-blue-900/80"
                             : "border border-neutral-800"
                         }`}
             >
               {plan.popular && (
                 <div className="text-center mb-4">
-                  <span className=" bg-blue-600 text-white text-xs py-1 px-3 rounded-full uppercase">
+                  <span className=" bg-blue-600 animate-pulse text-white text-xs py-1 px-3 rounded-full uppercase">
                     {PLANS_CONTENT.popularBadge}
                   </span>
                 </div>
               )}
-              <h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
+              <h3
+                className={`text-lg lg:text-xl mb-4 tracking-tighter uppercase
+                        ${plan.name === "Pro" ? "text-blue-800" : "text-neutral-200"}`}
+              >
                 {plan.name}
               </h3>
               <p className="text-neutral-400 mb-6">{plan.description}</p>
