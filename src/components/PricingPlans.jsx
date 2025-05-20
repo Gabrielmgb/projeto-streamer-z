@@ -59,7 +59,7 @@ const PricingPlans = () => {
               )}
               <h3
                 className={`text-lg lg:text-xl mb-4 tracking-tighter uppercase
-                        ${plan.name === "Pro" ? "text-blue-800" : "text-neutral-200"}`}
+                        ${plan.name === "Pro" ? "text-blue-500" : "text-neutral-200"}`}
               >
                 {plan.name}
               </h3>
