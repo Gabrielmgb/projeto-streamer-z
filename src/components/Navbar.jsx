@@ -63,16 +63,16 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-neutral-900/60 backdrop-blur-md border border-neutral-800 p-4 rounded-xl mt-2">
           <div className="flex flex-col text-center space-y-4">
-            <a href="#" className=" hover:text-neutral-200">
+            <a href="#" className=" hover:text-neutral-400">
               Product
             </a>
-            <a href="#" className=" hover:text-neutral-200">
+            <a href="#" className=" hover:text-neutral-400">
               Pricing
             </a>
-            <a href="#" className=" hover:text-neutral-200">
+            <a href="#" className=" hover:text-neutral-400">
               Resources
             </a>
-            <a href="#" className=" hover:text-neutral-200">
+            <a href="#" className=" hover:text-neutral-400">
               Login
             </a>
             <a
